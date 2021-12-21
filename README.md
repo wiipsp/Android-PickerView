@@ -1,9 +1,10 @@
-
+The Original Jcenter is closed. So move it to jitpack
 ## Android-PickerView
 
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg)](https://android-arsenal.com/api?level=9) 
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Download](https://api.bintray.com/packages/contrarywind/maven/Android-PickerView/images/download.svg) ](https://bintray.com/contrarywind/maven/Android-PickerView/_latestVersion)
+[![](https://jitpack.io/v/wiipsp/Android-PickerView.svg)](https://jitpack.io/#wiipsp/Android-PickerView)
+
 
 [![GitHub stars](https://img.shields.io/github/stars/Bigkoo/Android-PickerView.svg?style=social)](https://github.com/Bigkoo/Android-PickerView/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Bigkoo/Android-PickerView.svg?style=social)](https://github.com/Bigkoo/Android-PickerView/network) [![GitHub watchers](https://img.shields.io/github/watchers/Bigkoo/Android-PickerView.svg?style=social)](https://github.com/Bigkoo/Android-PickerView/watchers)
 
@@ -91,7 +92,7 @@
 
 #### 1.添加Jcenter仓库 Gradle依赖：
 ```java
-compile 'com.contrarywind:Android-PickerView:4.1.9'
+implementation 'com.github.wiipsp.Android-PickerView:pickerview:4.1.10'
 ```
 或者
 
@@ -100,7 +101,7 @@ compile 'com.contrarywind:Android-PickerView:4.1.9'
 <dependency>
 <groupId>com.contrarywind</groupId>
 <artifactId>Android-PickerView</artifactId>
-<version>4.1.9</version>
+<version>4.1.10</version>
 <type>pom</type>
 </dependency>
 ```
